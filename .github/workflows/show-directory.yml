@@ -3,6 +3,6 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps: # список шагов, которые надо выполнить
+    steps: 
       - uses: actions/checkout@v4
       - run: make say-hello
